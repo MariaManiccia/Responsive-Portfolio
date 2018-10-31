@@ -275,3 +275,17 @@ h3 {
 #placeholder5 :hover{
     color: purple;
 }
+
+@media screen (max-width:980px){
+
+}
+
+@media screen (max-width:768px){
+
+}
+
+@media screen (max-width:640px){
+    header {position: static;}
+    
+
+}
