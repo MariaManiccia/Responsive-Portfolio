@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+ h2{
+     font-family: 'Georgia', Times, Times New Roman, serif;
+     font-size: 30px;
+     color: #4aaaa5;
+     padding-bottom: 30px;
+     border-bottom: 3px solid #dddddd;
+ }
+
+p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding-bottom: 15px;
+    line-height: 1.5em;
+}
+
+
+#head {
+    background-color: #ffffff;
+        position: relative;
+    border-bottom: 3px solid #cccccc;
+    height: 106px;
+    width: 100%;
+    }
+
+#top {
+width: 960px;
+float: center;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+
+}
+
+.selfimg{
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+    margin-right: -25px;
+    width: 245px;
+}
+
+#name {
+    padding: 35px;
+    width: 258px;
+    background-color: #4aaaa5;
+    color: white;
+    float:left;
+
+}
+
+li{
+    display: inline;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+font-size: 17px;
+border-right: 1px solid #cccccc;
+padding: 8px;
+}
+
+li:link{
+    color:#666666;
+}
+
+li :visited{
+    color: #777777;
+}
+
+li :hover{
+    color: purple;
+}
+
+li :focus{
+    color:#cccccc;
+}
+
+
+#wrapper{
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+}
+
+body{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/brickwall.png");
+}
+
+main {
+border: 1px solid #cccccc;
+float: center;
+padding: 45px 30px;
+background-color: #ffffff;
+margin-top: 65px;
+
+}
+
+footer {
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+    margin-top: 150px;
+    padding-top: 40px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+#content{
+    padding-top: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    border: 1px solid #cccccc;
+    resize: vertical;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+label {
+    padding: 16px 12px 12px 0;
+    display: inline-block;
+}
+
+.container{
+padding: 20px;
+margin-top: 30px;
+border-radius: 5px;
+
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    margin-right: 3%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: purple;
+}
+
+.colA{
+    float: center;
+    width: 95%;
+}
+
+.colA p{
+    padding: 0;
+}
+
+.colB{
+    float: center;
+    width: 95%;
+    margin-top: 5px;
+}
+
+h3 {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 89%;
+    position: absolute;
+    margin-top: -80px;
+    padding: 15px;
+}
+
+#placeholder1 {
+    position: relative;
+    float: left;
+    width: 275px;
+    padding-bottom: 50px;
+    z-index: inherit -1;
+}
+
+#placeholder1 :visited{
+    color: white;
+}
+
+#placeholder2 {
+    position: relative;
+    float: right;
+    width: 275px;
+    padding-bottom: 50px;
+    margin-right: 300px;
+    z-index: inherit -1;
+}
+
+#placeholder2 :visited{
+    color: white;
+}
+
+#placeholder3 {
+    position: relative;
+    float: left;
+    width: 275px;
+    padding-bottom: 50px;
+    clear: both;
+    z-index: inherit -1;
+}
+
+#placeholder3 :visited{
+    color: white;
+}
+
+#placeholder4 {
+    position: relative;
+    float: right;
+    width: 275px;
+    padding-bottom: 50px;
+    z-index: inherit -1;
+    margin-right: 300px;
+}
+
+#placeholder4 :visited{
+    color: white;
+}
+
+#placeholder5 {
+    position: relative;
+    float: left;
+    width: 275px;
+    padding-bottom: 50px;
+    z-index: inherit -1;
+    clear: both;
+
+}
+
+#placeholder5 :visited{
+    color: white;
+}
+
+.extend {
+    height: 960px;
+}
+
+#placeholder1 :hover{
+    color: purple;
+}
+
+#placeholder2 :hover{
+    color: purple;
+}
+
+#placeholder3 :hover{
+    color: purple;
+}
+
+#placeholder4 :hover{
+    color: purple;
+}
+
+#placeholder5 :hover{
+    color: purple;
+}
