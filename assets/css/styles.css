@@ -312,6 +312,10 @@ footer{
 }
 
 @media screen and (max-width:768px){
+    .mediaq{
+        float: left;
+        padding-left: 5%;
+        }
   
 
 }
