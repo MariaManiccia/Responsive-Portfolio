@@ -92,6 +92,7 @@ width: 960px;
 margin-left: auto;
 margin-right: auto;
 overflow: hidden;
+height: 50%;
 }
 
 body{
@@ -276,16 +277,41 @@ h3 {
     color: purple;
 }
 
-@media screen (max-width:980px){
 
-}
-
-@media screen (max-width:768px){
-
-}
-
-@media screen (max-width:640px){
-    header {position: static;}
+@media screen and (max-width:980px){ 
+    #wrapper{
+        width:650px;
+        float: left; 
+        padding-left: 5%;
+        height: 650px;
+    }
+footer{
+        margin-top: 100%;
+    }
+    footer p{
+        text-align: center;
+    }
+    #name {
     
+    }
+    #container {
+        width:650px;
+        float: left; 
+        height: 650px;
+ }
+
+
+    
+
+}
+
+@media screen and (max-width:768px){
+  
+
+}
+
+@media screen and (max-width:640px){
+ 
+
 
 }
