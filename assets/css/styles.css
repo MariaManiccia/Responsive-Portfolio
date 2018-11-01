@@ -291,13 +291,19 @@ footer{
     footer p{
         text-align: center;
     }
-    #name {
     
+    .mediaq{
+    float: left;
+    padding-left: 5%;
     }
     #container {
         width:650px;
         float: left; 
         height: 650px;
+ }
+
+ nav{
+     padding-right: 5%;
  }
 
 
