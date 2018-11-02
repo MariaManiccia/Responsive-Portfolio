@@ -95,6 +95,14 @@ overflow: hidden;
 height: 50%;
 }
 
+#section{
+    width: 960px;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+height: 50%;
+}
+
 body{
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/brickwall.png");
 }
@@ -302,9 +310,22 @@ footer{
         height: 650px;
  }
 
+ #section{
+     width:650px;
+ float: left; 
+ padding-left: 5%;
+ height: 650px;
+}
+
  nav{
      padding-right: 5%;
  }
+
+ .extend{
+    
+ }
+
+
 
 
     
@@ -322,6 +343,9 @@ footer{
 
 @media screen and (max-width:640px){
  
-
+    .mediaq{
+        float: left;
+        padding-left: 5%;
+        }
 
 }
