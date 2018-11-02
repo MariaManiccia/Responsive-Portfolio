@@ -86,6 +86,10 @@ li :focus{
     color:#cccccc;
 }
 
+body{
+    height: 1000px;
+}
+
 
 #wrapper{
 width: 960px;
@@ -296,14 +300,13 @@ h3 {
 footer{
         margin-top: 100%;
     }
-    footer p{
-        text-align: center;
-    }
+  
     
     .mediaq{
     float: left;
     padding-left: 5%;
     }
+
     #container {
         width:650px;
         float: left; 
@@ -321,9 +324,7 @@ footer{
      padding-right: 5%;
  }
 
- .extend{
-    
- }
+
 
 
 
@@ -333,19 +334,88 @@ footer{
 }
 
 @media screen and (max-width:768px){
+   
+        #wrapper {
+            width: 700px;
+            float: left;
+            padding-left:4%;
+            height: 650px;
+        }
+
+        #head{
+         height:95px;
+         width: fit-content;
+        }
+
+        #name{
+            padding: 30px;
+        }
+
+        footer{
+            width: 768px;
+        }
+
+        footer p{
+            padding-right: 3%;
+        }
+    
     .mediaq{
         float: left;
         padding-left: 5%;
         }
-  
+      
+        #top{
+            width:768px;
+        }
 
 }
 
 @media screen and (max-width:640px){
+    .selfimg{
+        float: none;
+    padding-left: 32%;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    
+    }
  
     .mediaq{
         float: left;
-        padding-left: 5%;
+        padding: 0;
         }
+        #name{
+            width: 617px;
+            text-align: center;
+        }
+        #top{
+            width: 640px;
+        }
+        #head{
+            height:160px;
+            width: 640px;
+        }
+
+        footer{
+        padding-top: 10%;
+            width: 640px;
+            margin-top: 775px;
+        }
+
+        footer p{
+            padding-right: 2%;
+        }
+
+        nav{
+            float: none;
+            padding-top: 78px;
+            padding-left: 35%;
+        }
+        #wrapper{
+            width:600px;
+            float: left; 
+            padding-left: 2%;
+            height:fit-content;
+        }
+      
 
 }
